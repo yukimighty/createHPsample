@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* HP課題その2 用 */
+
+/* common */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
