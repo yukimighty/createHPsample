@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* HP課題その2 用 */
+/* sample2 用 */
 
 /* common */
 * {
@@ -15,3 +15,104 @@
   margin: 0 auto;
 }
 
+/* header */
+
+header {
+  width: 940px;
+  height: 30px;
+  background-color: orange;
+}
+
+/* mainimg */
+
+.mainimg {
+  width: 940px;
+  height: 300px;
+  background-color: silver;
+}
+
+/* contents */
+
+.contents{
+  width: 940px;
+  height: 150px;
+  background-color: skyblue;
+}
+
+/* thema */
+
+.thema {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thema_1 {
+  width: 200px;
+  height: 150px;
+  background-color: orange;
+}
+
+.thema_2 {
+  width: 200px;
+  height: 150px;
+  background-color: pink;
+}
+
+.thema_3 {
+  width: 200px;
+  height: 150px;
+  background-color: purple;
+}
+
+.thema_4 {
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+}
+
+/* column */
+
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.staff_1 {
+  width: 280px;
+  height: 300px;
+  background-color: green;
+}
+
+.staff_2 {
+  width: 280px;
+  height: 300px;
+  background-color: rgba(255, 255, 0, 0.685);
+}
+
+.staff_3 {
+  width: 280px;
+  height: 300px;
+  background-color: green;
+}
+
+/* info */
+
+.info {
+  width: 940px;
+  height: 150px;
+  background-color: gray;
+}
+/* photoimg */
+
+.photoimg {
+  width: 940px;
+  height: 170px;
+  background-color: green;
+}
+/* footer */
+
+footer {
+  width: 940px;
+  height: 100px;
+  background-color: violet;
+}
